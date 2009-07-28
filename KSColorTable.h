@@ -27,9 +27,9 @@
 #import <Foundation/Foundation.h>
 
 typedef struct {
-	NSString *color_name,
-	NSString *pronunciation,
-	NSUInteger color_rgb,
+	NSString *color_name;
+	NSString *pronunciation;
+	NSUInteger color_rgb;
 } ColorInformation;
 
 // These color tables use the information of the following contents
